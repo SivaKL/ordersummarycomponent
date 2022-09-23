@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container {
+    width: 95%;
+    background-color: hsl(225, 100%, 94%);
+    padding: 85px 0;
+    background-image: url("/images/pattern-background-desktop.svg");
+    margin: 2rem;
+    max-height: 520vh;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    max-height: 480vh;
+}
+.content {
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    padding: 10px;
+    font-weight: 900;
+}
+.center {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+}
+.icon {
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0 33px;
+}
+li{
+    padding: 4px;
+}
+ .link-1 {
+    padding: 14px;
+    color: hsl(245, 75%, 52%);
+    font-size: 15px;
+    font-weight: 700;
+}
+button {
+    padding: 10px 72px;
+    border-radius: 15px;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    border: 2px solid;
+}
+.link-2 {
+    padding: 0 35px 35px 35px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+.payment {
+    padding: 35px;
+}
+p {
+    line-height: 25px;
+    padding: 0 30px;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    font-size: 15px;
+}
+.li-2{
+    color: hsl(224, 23%, 55%);
+}
+.link-1:active{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+button:active{
+    background-color: hsl(244, 38%, 52%);
+    cursor: pointer;
+}
+.link-2:active{
+    color: black;
+
+}
+@media screen and (max-width:375px) {
+    .container {
+        width: 100%;
+        background-color: hsl(225, 100%, 94%);
+        padding: 40px 0;
+        background-image: url(/images/pattern-background-desktop.svg);
+        margin: 0 auto;
+        max-height: 450vh;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 87%;
+        margin: 0 auto;
+        background-color: white;
+        overflow: hidden;
+        border-radius: 20px;
+        max-height: 354vh;
+    }     
+}
+
