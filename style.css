@@ -9,7 +9,6 @@
     background-color: hsl(225, 100%, 94%);
     padding: 85px 0;
     background-image: url("/images/pattern-background-desktop.svg");
-    margin: 2rem;
     max-height: 520vh;
 }
 .flex {
